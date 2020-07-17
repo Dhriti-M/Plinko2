@@ -97,7 +97,7 @@ function draw() {
      text("GAMEOVER",400,400);
    }
 
-   if (particle!==null){
+   if (particle!==undefined && particle!==null){
      particle.display();
         if (particle.body.position.y>760)
         {
